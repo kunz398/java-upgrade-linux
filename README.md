@@ -11,17 +11,21 @@ upgrading of java version to 1.8.0_311 in Oracle Linux / Red Hat / CentOS
      
 
 3. cd to the directory its stored in my case its in downloads and install the rpm package
+4. 
 ``
      cd /home/kunz/Downloads/   
      ``
+     
      ``
       rpm -i jdk-8u311-linux-x64.rpm
-``
+      ``
 4. next confirm if installation has taken place
+5. 
 ``
      $ cd /usr/java
  ``
- ``
+ 
+    ``
      $ ll
      drwxr-xr-x  9 root root 4096 Feb  1 21:47 jdk1.8.0_311-amd64
     `` 
