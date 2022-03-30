@@ -64,3 +64,10 @@ next check java version
     OpenJDK Runtime Environment (build 1.8.0_311-b06)
     OpenJDK 64-Bit Server VM (build 25.311-b06, mixed mode)
     $
+
+
+
+a small hack if for some reason some program still references the old java version you can create a sumbolic link to 311
+``
+ln -s jdk1.8.0_311-amd64 jdk1.8.0_181-amd64
+``
