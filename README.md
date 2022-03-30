@@ -1,3 +1,4 @@
+
 # java-upgrade-linux
 upgrading of java version to 1.8.0_311 in Oracle Linux / Red Hat / CentOS
 
@@ -19,15 +20,11 @@ upgrading of java version to 1.8.0_311 in Oracle Linux / Red Hat / CentOS
       rpm -i jdk-8u311-linux-x64.rpm
       ``
 4. next confirm if installation has taken place
-5. 
-``
-     $ cd /usr/java
- ``
+
  
-    ``
-     $ ll
-     drwxr-xr-x  9 root root 4096 Feb  1 21:47 jdk1.8.0_311-amd64
-    `` 
+`` $ cd /usr/java``
+`` $ ll`` 
+ ``drwxr-xr-x  9 root root 4096 Feb  1 21:47 jdk1.8.0_311-amd64``
 
 > the above shows i have installed version _311 now we need to set up
 > the environment variables.
